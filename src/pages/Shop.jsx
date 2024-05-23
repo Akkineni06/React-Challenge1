@@ -1,12 +1,12 @@
 import itemsData from "../itemsData.json";
 
-function Shop({ name, price, imageUrl }) {
+export default function Shop({ name, price, imageUrl }) {
 
     
   return (
     <div className="card">
       {itemsData.map((item) => (
-        <div>
+        <div key={item.id}>
           <img
             className="card-image"
             src={item.imageUrl}
@@ -22,4 +22,4 @@ function Shop({ name, price, imageUrl }) {
   );
 }
 
-export default Shop;
+

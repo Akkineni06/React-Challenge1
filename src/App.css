@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+nav h1 {
+
+  text-align: center;
+  margin: 1;
+  padding: 2rem;
+  background-color: olivedrab;
+  color: snow;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
