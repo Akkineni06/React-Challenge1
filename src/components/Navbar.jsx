@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
 
-export default function Navbar() {
+const Navbar = () => {
     return (
         
-        <nav>
+        <nav className="navbar">
             <h1>SEED THEORY</h1>
             <ul>
                 <li>
@@ -20,3 +20,5 @@ export default function Navbar() {
                      
     );
 }
+
+export default Navbar;
